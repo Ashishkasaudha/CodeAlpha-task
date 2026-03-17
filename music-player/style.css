@@ -1,0 +1,65 @@
+body{
+font-family: Arial;
+background: linear-gradient(135deg,#667eea,#764ba2);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+}
+
+.player{
+background:#222;
+padding:30px;
+border-radius:15px;
+width:320px;
+text-align:center;
+}
+.player{
+background:#222;
+padding:30px;
+border-radius:15px;
+width:320px;
+text-align:center;
+box-shadow:0 0 20px #667eea;
+}
+
+.controls button{
+font-size:20px;
+margin:10px;
+padding:10px 15px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+.controls button:hover{
+background:#555;
+color:white;
+}
+
+.progress-container{
+margin:15px 0;
+}
+
+#progress{
+width:100%;
+}
+
+.volume{
+margin-top:10px;
+}
+
+ul{
+list-style:none;
+padding:0;
+}
+
+li{
+padding:5px;
+cursor:pointer;
+}
+
+li:hover{
+background:#444;
+}
